@@ -1,0 +1,10 @@
+[submodule "quickstart/themes/twenty-twenty-hugo"]
+	path = quickstart/themes/twenty-twenty-hugo
+	url = https://github.com/themefisher/twenty-twenty-hugo.git
+[submodule "quickstart/themes/ananke"]
+	path = quickstart/themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "public"]
+	path = public
+	url = https://github.com/this-josh/this-josh.github.io.git
+	branch = master
