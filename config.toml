@@ -1,0 +1,8 @@
+baseURL = "http://this-josh.github.io/"
+languageCode = "en-us"
+title = "My Hugo Site"
+
+theme = "ananke"
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
