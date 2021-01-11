@@ -1,8 +1,43 @@
 baseURL = "http://this-josh.github.io/"
-languageCode = "en-us"
-title = "My Hugo Site"
+languageCode = "en-gb"
+title = "Josh Kirk"
 
-theme = "ananke"
+
+SectionPagesMenu = "main"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
+toc = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+
+[params]
+  favicon = ""
+  site_logo = ""
+  description = "The home of Josh Kirk"
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = "https://github.com/this-josh"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/j-kirk/"
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "https://unsplash.com/photos/MIqIMtkuaZs/download?force=true&w=1920"
+  recent_posts_number = 2
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
